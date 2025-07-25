@@ -15,6 +15,18 @@ The olive recipe `Llama3.2-1B-Instruct_nvmo_int4_awq.json` produces INT4 AWQ qua
     pip install olive-ai[nvmo]
     ```
 
+    - If TensorRT Model Optimizer needs to be installed from a local wheel, then follow below steps.
+
+        ```bash
+        pip install olive-ai
+        pip install <modelopt-wheel>[onnx]
+        ```
+
+    - Make sure that Model Optimization is installed correctly.
+        ```bash
+        python -c "from modelopt.onnx.quantization.int4 import quantize as quantize_int4"
+        ```
+
 2. Install suitable onnxruntime and onnxruntime-genai packages
 
     - Install the onnxruntime and onnxruntime-genai packages that have NvTensorRTRTXExecutionProvider support. Refer documentation for [NvTensorRtRtx execution-provider](https://onnxruntime.ai/docs/execution-providers/TensorRTRTX-ExecutionProvider.html/) to setup its dependencies/requirements. 
@@ -30,6 +42,12 @@ The olive recipe `Llama3.2-1B-Instruct_nvmo_int4_awq.json` produces INT4 AWQ qua
     ```bash
     pip install -r requirements-nvmo-awq.txt
     ```
+
+### Steps to run
+
+```bash
+olive run --config Llama3.2-1B-Instruct_nvmo_int4_awq.json
+```
 
 ### Recipe details
 
