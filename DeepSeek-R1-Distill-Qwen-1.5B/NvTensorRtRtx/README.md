@@ -14,7 +14,7 @@ The olive recipe `DeepSeek-R1-Distill-Qwen-1.5B_fp16_model_builder.json` uses `M
 
 ### Steps to run
 
-Use the following command to export the model using Olive with the NvTensorRT RTX execution provider:
+Use the following command to export the model using Olive with NvTensorRTRTXExecutionProvider:
 
 ```bash
 olive run --config DeepSeek-R1-Distill-Qwen-1.5B_fp16_model_builder.json
