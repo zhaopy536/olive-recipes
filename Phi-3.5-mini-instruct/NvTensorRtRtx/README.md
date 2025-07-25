@@ -22,7 +22,7 @@ The olive recipe `Phi-3.5-mini-instruct_nvmo_int4_awq.json` produces INT4 AWQ qu
         pip install <modelopt-wheel>[onnx]
         ```
 
-    - Make sure that Model Optimization is installed correctly.
+    - Make sure that TensorRT Model Optimizer is installed correctly.
         ```bash
         python -c "from modelopt.onnx.quantization.int4 import quantize as quantize_int4"
         ```

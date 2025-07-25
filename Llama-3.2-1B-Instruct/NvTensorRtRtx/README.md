@@ -22,7 +22,7 @@ The olive recipe `Llama3.2-1B-Instruct_nvmo_int4_awq.json` produces INT4 AWQ qua
         pip install <modelopt-wheel>[onnx]
         ```
 
-    - Make sure that Model Optimization is installed correctly.
+    - Make sure that TensorRT Model Optimizer is installed correctly.
         ```bash
         python -c "from modelopt.onnx.quantization.int4 import quantize as quantize_int4"
         ```
