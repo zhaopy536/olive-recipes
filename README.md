@@ -17,6 +17,9 @@ Below are list of available recipes grouped by different criteria. Click the lin
 <summary>Models grouped by model architecture</summary></br>
 
 <!-- begin_arch_models -->
+| bert |
+| :---: |
+| [intel-bert-base-uncased-mrpc](intel-bert-base-uncased-mrpc/aitk) |
 <!-- end_arch_models -->
 </details>
 
@@ -24,6 +27,10 @@ Below are list of available recipes grouped by different criteria. Click the lin
 <summary>Models grouped by device</summary></br>
 
 <!-- begin_device_models -->
+| cpu | gpu | npu |
+| :---: | :---: | :---: |
+| [intel-bert-base-uncased-mrpc (ov)](intel-bert-base-uncased-mrpc/aitk/bert_ov.json) | [intel-bert-base-uncased-mrpc](intel-bert-base-uncased-mrpc/aitk/bert_trtrtx.json) | [intel-bert-base-uncased-mrpc (AMD)](intel-bert-base-uncased-mrpc/aitk/bert_qdq_amd.json) |
+|  |  | [intel-bert-base-uncased-mrpc](intel-bert-base-uncased-mrpc/aitk/bert_qdq_qnn.json) |
 <!-- end_device_models -->
 </details>
 
@@ -31,6 +38,9 @@ Below are list of available recipes grouped by different criteria. Click the lin
 <summary>Models grouped by EP</summary></br>
 
 <!-- begin_ep_models -->
+| NvTensorRTRTX | OpenVINO | QNN | VitisAI |
+| :---: | :---: | :---: | :---: |
+| [intel-bert-base-uncased-mrpc](intel-bert-base-uncased-mrpc/aitk/bert_trtrtx.json) | [intel-bert-base-uncased-mrpc (ov)](intel-bert-base-uncased-mrpc/aitk/bert_ov.json) | [intel-bert-base-uncased-mrpc](intel-bert-base-uncased-mrpc/aitk/bert_qdq_qnn.json) | [intel-bert-base-uncased-mrpc (AMD)](intel-bert-base-uncased-mrpc/aitk/bert_qdq_amd.json) |
 <!-- end_ep_models -->
 </details>
 
