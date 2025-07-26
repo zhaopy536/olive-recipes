@@ -26,6 +26,8 @@ The olive recipe `Qwen2.5-1.5B-Instruct_nvmo_int4_awq.json` produces INT4 AWQ qu
         ```bash
         python -c "from modelopt.onnx.quantization.int4 import quantize as quantize_int4"
         ```
+    
+    - Refer TensorRT Model Optimizer [documentation](https://nvidia.github.io/TensorRT-Model-Optimizer/getting_started/windows/_installation_with_olive.html) for its detailed installation instructions and setup dependencies.
 
 2. Install suitable onnxruntime and onnxruntime-genai packages
 
