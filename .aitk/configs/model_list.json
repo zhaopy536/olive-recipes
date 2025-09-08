@@ -87,6 +87,26 @@
             "p0": true
         },
         {
+            "displayName": "google-bert/bert-large-uncased",
+            "icon": "gemini",
+            "modelLink": "https://huggingface.co/google-bert/bert-large-uncased",
+            "id": "huggingface/google-bert/bert-large-uncased",
+            "runtimes": [
+                "QNN",
+                "AMDNPU",
+                "NvidiaTRTRTX",
+                "IntelCPU",
+                "IntelGPU",
+                "IntelNPU",
+                "DML"
+            ],
+            "architecture": "Transformer",
+            "status": "Ready",
+            "relativePath": "google-bert-bert-large-uncased/aitk",
+            "version": 2,
+            "p0": true
+        },
+        {
             "displayName": "google/vit-base-patch16-224",
             "icon": "gemini",
             "modelLink": "https://huggingface.co/google/vit-base-patch16-224",
@@ -124,26 +144,6 @@
             "status": "Ready",
             "relativePath": "intel-bert-base-uncased-mrpc/aitk",
             "version": 2,
-            "p0": true
-        },
-        {
-            "displayName": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
-            "icon": "laion",
-            "modelLink": "https://huggingface.co/laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
-            "id": "huggingface/laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
-            "runtimes": [
-                "QNN",
-                "AMDNPU",
-                "NvidiaTRTRTX",
-                "IntelCPU",
-                "IntelGPU",
-                "IntelNPU",
-                "DML"
-            ],
-            "architecture": "Transformer",
-            "status": "Ready",
-            "relativePath": "laion-CLIP-ViT-B-32-laion2B-s34B-b79K/aitk",
-            "version": 3,
             "p0": true
         },
         {
