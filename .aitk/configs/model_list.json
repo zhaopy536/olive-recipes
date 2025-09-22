@@ -595,7 +595,8 @@
     ],
     "LoginRequiredModelIds": [
         "huggingface/meta-llama/Llama-3.2-1B-Instruct",
-        "huggingface/mistralai/Mistral-7B-Instruct-v0.3"
+        "huggingface/mistralai/Mistral-7B-Instruct-v0.3",
+        "huggingface/mistralai/Mistral-7B-Instruct-v0.2"
     ],
     "DatasetSplit": {
         "nlphuji/flickr30k": [
